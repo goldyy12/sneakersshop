@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-/* Apply font to whole page */
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Navbar container */
 .navbar {
   padding: 16px 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -17,18 +15,16 @@ body {
   position: relative;
 }
 
-/* Inner container */
 .navbar .containernav {
   display: flex;
   align-items: center;
-  justify-content: center; /* center links */
+  justify-content: center;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
-/* Logo container stays on left */
 .navbar .logo-container {
   position: absolute;
   left: -100px;
@@ -50,7 +46,6 @@ body {
   text-decoration: none;
 }
 
-/* Navigation links centered */
 .navbar .nav-links {
   display: flex;
   gap: 24px;

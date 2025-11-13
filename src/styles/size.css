@@ -15,7 +15,7 @@
 .size-picker .sizes {
   display: flex;
   gap: 10px;
-  flex-wrap: wrap; /* wrap for smaller screens */
+  flex-wrap: wrap;
 }
 
 .size-picker .size {

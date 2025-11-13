@@ -26,7 +26,6 @@
   transition: transform 0.2s, border-color 0.2s;
 }
 
-/* Example colors */
 .color-picker .w {
   background-color: #ffffff;
 }

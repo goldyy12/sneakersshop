@@ -7,7 +7,6 @@
   min-height: 100vh;
 }
 
-/* Container section */
 .home-page .container {
   display: flex;
   flex-direction: row;
@@ -17,7 +16,6 @@
   margin: 30px auto;
 }
 
-/* Title */
 .home-page h1 {
   font-size: 50px;
   width: 80%;
@@ -35,7 +33,7 @@ body {
   width: 500px;
   height: 400px;
 
-  object-fit: contain; /* or cover, depending on your goal */
+  object-fit: contain;
 }
 
 .home-page .main {
@@ -77,10 +75,4 @@ body {
 
 .home-page .Explore:hover {
   background-color: #ff3c2f;
-}
-
-.home-page .shoe-image {
-  flex-grow: 1;
-  width: 100%;
-  object-fit: contain;
 }

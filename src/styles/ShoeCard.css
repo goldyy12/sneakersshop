@@ -53,7 +53,7 @@ p {
 .home-page .shoe-image {
   display: block;
   margin: 0 auto;
-  padding: 0; /* Remove if you added padding earlier */
+  padding: 0;
 }
 .home-page .shoe-image {
   flex-grow: 1;
