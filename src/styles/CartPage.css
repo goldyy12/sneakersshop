@@ -1,0 +1,25 @@
+.shoe-card1 {
+  margin-left: 100px;
+  display: flex;
+}
+
+.shoe-card1 img {
+  margin: 30px;
+  width: 600px;
+  height: 600px;
+  border: 3px solid black;
+}
+.shoe-card1 .shoe-name {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.shoe-card1 .shoe-desc {
+  width: 600px;
+  color: black;
+}
+.add-to-cart-btn {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}

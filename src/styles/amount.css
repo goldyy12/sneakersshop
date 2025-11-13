@@ -1,0 +1,27 @@
+.amount-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.amount-btn .btn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.amount-btn .btn:hover {
+  background-color: #e0e0e0;
+}
+
+.amount-btn .amount {
+  min-width: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}

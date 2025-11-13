@@ -1,0 +1,50 @@
+.color-picker {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.color-picker .title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.color-picker .colors {
+  display: flex;
+  gap: 10px;
+}
+
+.color-picker .color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+/* Example colors */
+.color-picker .w {
+  background-color: #ffffff;
+}
+.color-picker .o {
+  background-color: #ff7f50;
+}
+.color-picker .r {
+  background-color: #ff0000;
+}
+.color-picker .p {
+  background-color: #800080;
+}
+.color-picker .g {
+  background-color: #00ff00;
+}
+
+/* Active state */
+.color-picker .color.active {
+  transform: scale(1.2);
+  border-color: #000; /* highlights active color */
+}

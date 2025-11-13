@@ -1,0 +1,74 @@
+.home-page .shoe-card {
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #ff6a5f;
+  padding: 20px;
+  width: 400px;
+  transition: transform 0.2s;
+  height: 300px;
+  z-index: 1;
+  margin: 10px;
+}
+
+.home-page .shoe-card::after {
+  content: "";
+  position: absolute;
+  top: -15px; /* how far below the real card */
+  left: -15px; /* how far right */
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke; /* your decoration color */
+  border-radius: 10px;
+  z-index: -1;
+  border: 2px solid black;
+}
+
+.home-page .shoe-image {
+  width: 100%;
+  height: 21rem; /* same as h-56 */
+  object-fit: contain;
+  border-bottom: 2px solid black;
+}
+
+.home-page .shoe-info {
+  padding: 0rem; /* same as p-4 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  color: aliceblue;
+}
+.home-page .shoe-name {
+  font-weight: 600;
+  font-size: 1.125rem; /* text-lg */
+}
+
+.home-page .shoe-price {
+  font-weight: bold;
+  color: #f87171; /* text-red-500 */
+}
+
+.home-page .shoe-image {
+  display: block;
+  margin: 0 auto;
+  padding: 0; /* Remove if you added padding earlier */
+}
+.home-page .shoe-image {
+  flex-grow: 1;
+  width: 100%;
+  object-fit: contain;
+}
+.home-page .shoe-image-wrapper {
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+.shoe-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
