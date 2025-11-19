@@ -14,17 +14,19 @@ function App() {
   }, [cart]);
 
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
-
   const element = useRoutes(routes(cart, setCart));
 
   return (
     <>
-      <Navbar cart={cart} setCart={setCart} totalItems={totalItems} />
-      {element}
-      <Footer />
+      <div className="app-wrapper">
+        <Navbar cart={cart} setCart={setCart} totalItems={totalItems} />
+        <main className="main-content">{element}</main>
 
+      </div>
+      <Footer />
     </>
   );
 }
 
 export default App;
+

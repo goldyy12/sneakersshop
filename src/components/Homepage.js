@@ -1,9 +1,10 @@
 import { shoes } from "../Data";
 import Navbar from "./Navbar";
 import ShoeCard from "./ShoeCard";
-import "../styles/Homepage.css"; // no need to assign to a variable
+import "../styles/Homepage.css";
 import { useNavigate } from "react-router";
 import ShopPage from "./ShopPage";
+import Footer from "../components/footer"
 
 const App = () => {
   const shoe = shoes[1];
@@ -43,6 +44,7 @@ const App = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

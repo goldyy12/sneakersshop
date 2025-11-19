@@ -50,3 +50,26 @@ body,
   padding: 0;
   background-color: rgb(243, 231, 231);
 }
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+
+
+  /* full viewport height */
+}
+
+.main-content {
+  flex: 1;
+  padding-bottom: 300px;
+  /* pushes footer down */
+
+}
