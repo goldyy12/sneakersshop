@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useRoutes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import routes from "./routes";
-
+import Footer from "./components/footer"
 function App() {
   const [cart, setCart] = useState(() => {
     const stored = localStorage.getItem("cart");
@@ -21,6 +21,8 @@ function App() {
     <>
       <Navbar cart={cart} setCart={setCart} totalItems={totalItems} />
       {element}
+      <Footer />
+
     </>
   );
 }
